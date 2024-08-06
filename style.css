@@ -4,11 +4,29 @@ body {
 
 h1 {
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#000000;
+}
+h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#000000;
 }
 
 .container {
     flex-direction: column;
     display: flex;
     align-items: center;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(3px);
 }
