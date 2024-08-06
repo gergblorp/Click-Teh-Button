@@ -1,7 +1,16 @@
-.buttontrans {
-    transition: transform 0.1s ease-in-out;
+body {
+    background-color: #181818;
 }
 
-.buttontrans:hover {
-    transform: translateY(-10px);
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
