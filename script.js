@@ -6,4 +6,5 @@ btn.addEventListener("click", () => {
     document.body.style.backgroundColor = "white";
     header.textContent = "you just got flashbanged"
     header2.textContent = ""
+    btn.textContent = "lol"
 });
